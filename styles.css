@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+.cards,.cards2r{
+    display: flex;
+    width: fit-content;
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card1,.card2,.card3,.card4,.card11,.card12{
+    display: block;
+    border: 1px solid black;
+    width: 230px;
+    margin: 20px;
+    height: fit-content;
+    box-shadow: 2px 2px 1px 1px greenyellow, -2px -2px 1px 1px blue;
+
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card2:hover{
+    font-family: cursive;
+}
+
+.card1:hover{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.card3:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card4:hover{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.card11:hover{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.card12:hover{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
