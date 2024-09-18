@@ -21,8 +21,18 @@
     margin: 20px;
     height: fit-content;
     box-shadow: 2px 2px 1px 1px greenyellow, -2px -2px 1px 1px blue;
+    text-align: center;
 
 }
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
 button{
     padding: 10px;
     margin: 10px;
